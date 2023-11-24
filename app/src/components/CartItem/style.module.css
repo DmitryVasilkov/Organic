@@ -1,0 +1,80 @@
+button{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 200px auto; */
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.price_block{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    color: #274C5B;
+    
+    /* border-top: 1px solid #DEDDDD; */
+}
+
+.price{
+    color: #B8B8B8;
+    text-decoration: line-through;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+.new_price{
+    color: #274C5B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.price_value{
+    display: flex;
+    gap: 7px;
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.img{
+    width: 100%;
+    object-fit: contain;
+    /* overflow: hidden; */
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, auto) 1fr;
+}
+.block_count{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    gap: 20px;
+
+}
+.block_count button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+.block{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}

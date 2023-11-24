@@ -1,0 +1,9 @@
+.img{
+        height: 450px;
+        background-size: cover;
+        background-position: center;
+        background-image: url('./media/bg.jpg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

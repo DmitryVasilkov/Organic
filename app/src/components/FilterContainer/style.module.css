@@ -1,0 +1,25 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.block_input{
+    display: flex;  
+    gap:5px;
+}
+.block_input input {
+    width: fit-content;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.block_input input::-webkit-outer-spin-button,
+.block_input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* .block_input input[type=number]{
+    -moz-appearance: textfield;
+} */

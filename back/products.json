@@ -1,0 +1,76 @@
+[
+    {
+        "id":1,
+        "img": "http://127.0.0.1:5500/media/img_1.png",
+        "title": "Calabrese Broccoli",
+        "price": 10.00,
+        "new_price": 13.00,
+        "mark": 5,
+        "type": "Vegetable"
+    },
+    {
+        "id":2,
+        "img": "http://127.0.0.1:5500/media/img_2.png",
+        "title": "Fresh Banana Fruites",
+        "price": 12.00,
+        "new_price": 14.00,
+        "mark": 5,
+        "type": "Fresh"
+    },
+    {
+        "id":3,
+        "img": "http://127.0.0.1:5500/media/img_3.png",
+        "title": "White Nuts",
+        "price": 15.00,
+        "new_price": 15.00,
+        "mark": 5,
+        "type": "Millets"
+    },
+    {
+        "id":4,
+        "img": "http://127.0.0.1:5500/media/img_4.png",
+        "title": "Vegan Red Tomato",
+        "price": 20.00,
+        "new_price": 17.00,
+        "mark": 5,
+        "type": "Vegetable"
+    },
+    {
+        "id":5,
+        "img": "http://127.0.0.1:5500/media/img_5.png",
+        "title": "Mung Bean",
+        "price": 20.00,
+        "new_price": null,
+        "mark": 2,
+        "type": "Health"
+    },
+    {
+        "id":6,
+        "img": "http://127.0.0.1:5500/media/img_6.png",
+        "title": "Brown Hazelnut",
+        "price": 20.00,
+        "new_price": null,
+        "mark": 3,
+        "type": "Nuts"
+    },
+    {
+        "id":7,
+        "img": "http://127.0.0.1:5500/media/img_7.png",
+        "title": "Eggs",
+        "price": 20.00,
+        "new_price": null,
+        "mark": 4,
+        "type": "Fresh"
+    },
+    {
+        "id":8,
+        "img": "http://127.0.0.1:5500/media/img_8.png",
+        "title": "Zelco Suji Elaichi Rusk",
+        "price": 20.00,
+        "new_price": null,
+        "mark": 5,
+        "type": "Fresh"
+    }
+]
+
+

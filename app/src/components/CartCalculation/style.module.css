@@ -1,0 +1,13 @@
+.block_sum{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+}

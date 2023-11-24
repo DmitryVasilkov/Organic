@@ -1,0 +1,16 @@
+.dark{
+    background-color: #274C5B;
+}
+.dark a{
+    color: white;
+}
+.dark p{
+    color: darkgray;
+}
+a {
+    color: #274C5B;
+    text-decoration: none;
+}
+.dark h1{
+    color: white;
+}
