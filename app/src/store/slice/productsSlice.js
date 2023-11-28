@@ -3,10 +3,6 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 const show = {price: true, discount: true, mark: true, category: true}
 
-// const myConsole = (data) => {
-//         const stateStringify = JSON.stringify(data);
-//         console.log(JSON.parse(stateStringify));
-//     };
 
 const initialState = {
     list:[],
@@ -15,7 +11,7 @@ const initialState = {
 export const fetchProducts = createAsyncThunk(
     '/products/fetchProducts',
     async () => {
-        const response = await fetch ('http://127.0.0.1:5500/products.json')
+        const response = await fetch ('https://dmitryvasilkov.github.io/organicApi/products.json')
         const data = await response.json()
         return data
         
@@ -36,13 +32,10 @@ const productsSlice = createSlice({
         },
         discountedAction(state, {payload}){
             state.list.forEach(item => {item.show.discount = !payload || item.new_price !== null})
-            // state.list.show.discount = payload ? !!state.list.new_price : true
-            // myConsole(state)
         },
         markFilter(state, {payload}){
            state.list.forEach(({show, mark}) => {
             show.mark = payload === -1 ? true : mark === payload
-            // show.mark = payload === -1 || mark === payload -----если левая часть true, он вернет true, иначе вернет правую сторону 
            })
         },
         categoryFilter(state, {payload}){
@@ -57,8 +50,6 @@ const productsSlice = createSlice({
             })
 
             })
-        
-        // state.list.show = show
         }
     },
     extraReducers: (builder) => {
